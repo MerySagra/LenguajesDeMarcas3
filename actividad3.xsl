@@ -7,11 +7,22 @@
             </head>
             <body>
                 <h1>
-                    <p>
-                        Datos de
-                        <xsl:value-of select="ite/empresa" />
-                    </p>
+                    <a href="{ite/@web}" target="_blank">
+                        <xsl:value-of select="ite/@nombre" />
+                    </a>
                 </h1>
+                <h2>
+                    <p>
+                        Grupo <a href="https://www.grupoproeduca.com/" target="_blank"><xsl:value-of select="ite/empresa" /></a>
+                    </p>
+                </h2>
+                <h3>
+                    <p>
+                        Teléfono:
+                        <xsl:value-of select="ite/telefono" />
+                    </p>
+                </h3>
+                <h4>Profesorado</h4>
                     <table>
                         <tr>
                             <th>Id del profesor</th>
@@ -28,6 +39,24 @@
                             </tr>
                         </xsl:for-each>
                     </table>
+                    <h4>Equipo directivo</h4>
+                    <ul>
+                        <li>
+                            Director
+                        </li>
+                        <ul>
+                            <li><xsl:value-of select="ite/director/nombre" /></li>
+                            <li><xsl:value-of select="ite/director/despacho" /></li>
+                        </ul>
+                        <li>
+                            Jefe de estudios
+                        </li>
+                        <ul>
+                            <li><xsl:value-of select="ite/jefe_estudios/nombre" /></li>
+                            <li><xsl:value-of select="ite/jefe_estudios/despacho" /></li>
+                        </ul>
+                    </ul>
+                    <h4>Oferta formativa</h4>
                     <table>
                         <tr>
                             <th>Id del ciclo</th>
