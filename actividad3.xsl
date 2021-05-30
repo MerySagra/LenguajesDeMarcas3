@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
+        <!-- Metetemos el html -->
         <html>
+            <!-- En la cabecera del html, enlazamos con la hoja de estilos css -->
             <head>
                 <link rel="stylesheet" href="./actividad3.css" />
                 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -23,6 +25,7 @@
                         <div class="edix-presentation">
                             <img src="./public/logos/edix-formacion.png" class="logo" alt="" srcset=""/>
                             <div class="empresa">
+                                <!-- Añadimos el enlace a una web seleccionando la dirección http del documento xml -->
                                 <a href="{ite/@web}" target="_blank">
                                     <xsl:value-of select="ite/@nombre" />
                                 </a>
@@ -34,6 +37,7 @@
                         <div class="contacto">
                             <div class="group">
                                 <img src="./public/logos/logo_proeduca.png" class="logo group"/>
+                                <!-- Ponemos el nombre de la empresa con el dato del xml -->
                                 Grupo <a href="https://www.grupoproeduca.com/" target="_blank"><xsl:value-of select="ite/empresa" /></a>
                             </div>
                             <div class="phone">
@@ -54,6 +58,7 @@
                             <div class="table">
                                 <span>Id del profesor</span>
                                 <span>Nombre</span>
+                                <!-- Con un for each, creamos la tabla de profesores tomando el dato del xml -->
                                 <xsl:for-each select="ite/profesores/profesor">
                                     <span>
                                         <xsl:value-of select="id" />
@@ -71,6 +76,7 @@
                         </div>
                         <div class="section-data">
                             <div class="table">
+                                <!-- Seleccionamos los datos para la tabla del documento xml -->
                                 <span>Cargo</span>
                                 <span>Nombre</span>
                                 <span>Despacho</span>
@@ -106,6 +112,7 @@
                         <div class="section-header">
                             <h1>Puedes pedir que te llamemos... si te atreves</h1>
                         </div>
+                        <!-- Añadimos el formulario -->
                         <form action="" method="POST" enctype="multipart/form-data" target="_blank" class="set-fields">
                             <camposet class="fields">
                                 <legend class="fields-title">Datos de contacto</legend>
@@ -153,6 +160,7 @@
                         </div>
                     </footer>
                 </div>
+                <!-- Metemos un pequeño script para animar el fondo -->
                 <script>
                     (function start(){
                         var scene = document.getElementById('scene');
