@@ -1,0 +1,78 @@
+<ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com" >
+
+                <empresa>Tesla</empresa>
+
+                <telefono>+34 91 787 39 91</telefono>
+
+                <Coches>
+
+                               <Modelo>
+
+                                               <id>1</id>
+
+                                               <nombre>Tesla1</nombre>
+
+                               </Modelo>
+
+                               <Modelo>
+
+                                               <id>2</id>
+
+                                               <nombre>Tesla2</nombre>
+
+                               </Modelo>
+                               <Modelo>
+
+                                               <id>3</id>
+
+                                               <nombre>Tesla3</nombre>
+
+                               </Modelo>
+                               
+                </Coches>
+
+                <Camion>
+
+                               <nombre>Camion1</nombre>
+
+                               <Color>Blanco</Color>
+
+                </Camion>
+
+              
+
+                <Empresarios>
+
+                               <Empresario id="TSL">
+
+                                               <nombre>Juan Alberto Díaz</nombre>
+
+                                               <Cargo>Superior</cargo>
+
+                                             
+
+                               </Empresario>
+
+                               <Empresario id="TSLM">
+
+                                               <nombre>Lucia Domiguez</nombre>
+
+                                               <Cargo>Subdirectora</cargo>
+
+                                             
+
+                               </Empresario>
+
+                                <Empresario id="TSLD">
+
+                                               <nombre>Pedro Ramirez</nombre>
+
+                                               <Cargo>Director</cargo>
+
+                                             
+
+                               </Empresario>
+
+                </Empresarios>
+
+</ite>
