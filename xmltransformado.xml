@@ -1,0 +1,26 @@
+<itt empresa="Proeduca" telefono="+34 91 787 39 91">
+    <nombre>Instituto Tecnológico Edix</nombre>
+    <web>https://institutotecnologico.edix.com</web>
+    <docentes>
+       <docente id="1" nombre="Félix"/>
+       <docente id="2" nombre="Raúl"/>
+       <docente id="3" nombre="Raquel"/>
+       <docente id="4" nombre="Tomás"/>
+    </docentes>
+    <director>Chon con el despacho Numero 31, 3ª Planta, Edificio A</director>
+    <jefe_estudios nombre="Dani" despacho="Numero 27, 2ª Planta, Edificio B"/>
+    <oferta_formativa>
+       <ciclo_formativo titulo="Administración de Sistemas Informáticos en Red"
+                        tipo_grado="Superior"
+                        año="2009"
+                        id="ASIR"/>
+       <ciclo_formativo titulo="Desarrollo de Aplicaciones Web"
+                        tipo_grado="Superior"
+                        año="2010"
+                        id="DAW"/>
+       <ciclo_formativo titulo="Desarrollo de Aplicaciones Multiplataforma"
+                        tipo_grado="Superior"
+                        año="2010"
+                        id="DAM"/>
+    </oferta_formativa>
+ </itt>
