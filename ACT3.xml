@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html>
+    <head>
+        <h1>Proeduca - +34 91 787 39 91</h1>
+        <a href="https://www.edix.com/es/">Conócenos</a>
+    </head>
+    <body>
+        <h2>Profesores</h2>    
+        <table border="1">
+            <tr bgcolor="#9acd32">
+                <th>ID</th>
+                <th>Nombre</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Felix</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Raul</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Raquel</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Tomas</td>
+            </tr>
+        </table>
+        <h3>Ciclos</h3> 
+        <a href="https://www.edix.com/es/fp/">Conoce más sobre nuestros grados</a>   
+        <table border="1">
+            <tr bgcolor="#9acd32">
+                <th>ID</th>
+                <th>Nombre</th>
+            </tr>
+            <tr>
+                <td>ASIR</td>
+                <td>Administración de sistemas informáticos en red</td>
+            </tr>
+            <tr>
+                <td>DAW</td>
+                <td>Desarrollo de aplicaciones web</td>
+            </tr>
+            <tr>
+                <td>DAM</td>
+                <td>Desarrollo de aplicaciones multiplataforma</td>
+            </tr>
+        </table>
+        <h4>Caracteristicas de los ciclos</h4>
+        <ol>
+            <li>ASIR - GRADO SUPERIOR - 2009</li>
+            <li>DAW - GRADO SUPERIOR - 2010</li>
+            <li>DAWM - GRADO SUPERIRO - 2010</li>
+        </ol>
+        <h5>Contáctanos a través de nuestro formulario</h5>
+        <form action="/my-handling-form-page" method="post">
+            <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name"></input>
+            </li>
+            <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail"></input>
+            </li>
+            <li>
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Enviar</button>
+              </li>
+        </form>
+    </body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
