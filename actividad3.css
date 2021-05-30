@@ -40,6 +40,7 @@ body {
   margin: 0px;
   overflow-x: hidden;
   font-size: var(--font-size-big);
+  background-color: black;
 }
 
 .header {
@@ -212,11 +213,13 @@ body {
 }
 
 .authors {
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 .author {
-  margin: 0% 15%;
+  text-align: center;
+  width: 100%;
 }

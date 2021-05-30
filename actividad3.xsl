@@ -48,7 +48,7 @@
                     </header>
                     <section class="section teachers">
                         <div class="section-title">
-                            <h1>Profesores que son unos mounstros</h1>
+                            <h1>Profesores que son unos monstruos</h1>
                         </div>
                         <div class="section-data">
                             <div class="table">
@@ -67,7 +67,7 @@
                     </section>
                     <section class="section direction">
                         <div class="section-header">
-                            <h1>Una dirección digna del rey de los infiernos</h1>
+                            <h1>Una dirección digna del Rey de los Infiernos</h1>
                         </div>
                         <div class="section-data">
                             <div class="table">
@@ -85,7 +85,7 @@
                     </section>
                     <section class="section studies">
                         <div class="section-header">
-                            <h1>Una formación que ni el mismo Vanhelsim</h1>
+                            <h1>Una formación que ni el mismo Van Helsing</h1>
                         </div>
                         <div class="section-data">
                             <div class="table">
@@ -104,7 +104,7 @@
                     </section>
                     <section class="section form-contact">
                         <div class="section-header">
-                            <h1>Puedes pedir que te llamemos... si te atrevés</h1>
+                            <h1>Puedes pedir que te llamemos... si te atreves</h1>
                         </div>
                         <form action="" method="POST" enctype="multipart/form-data" target="_blank" class="set-fields">
                             <camposet class="fields">
@@ -147,9 +147,9 @@
                     </section>
                     <footer class="footer section">
                         <div class="authors">
-                            <h5 class="author">Author</h5>
-                            <h5 class="author">Author</h5>
-                            <h5 class="author">Author</h5>
+                            <h5 class="author">Jose Antonio Guardiola</h5>
+                            <h5 class="author">María Jesús Sagra Montero</h5>
+                            <h5 class="author">Silvia Arnáiz García</h5>
                         </div>
                     </footer>
                 </div>
