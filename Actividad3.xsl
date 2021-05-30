@@ -16,7 +16,18 @@
     </tr>
     </xsl:for-each>
   </table>
-  
+    <table border="1">
+    <tr bgcolor="#9acd32">
+      <th style="text-align:left">Jefe_Estudios</th>
+      <th style="text-align:left">Ciclos</th>
+    </tr>
+    <xsl:for-each select="ite">
+    <tr>
+      <td><xsl:value-of select="Jefe_Estudios"/></td>
+      <td><xsl:value-of select="Ciclos"/></td>
+    </tr>
+    </xsl:for-each>
+  </table>
   <ul>
                 
                     <li>
